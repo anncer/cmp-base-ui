@@ -15,6 +15,18 @@ $scrollbar-color: #d9d9d9;
 $asideBg: #343542;
 $asideFontColor: #fff;
 
+$contextFontSize: 12px;   //正文字体大小
+$contextColor: #172b4c;    //正文字体颜色
+$contextFontStyle: PingFangSC-Medium, PingFang SC;   //正文字体样式
+$btnDefault: #ccc;      //按钮默认背景颜色
+$btnColor: #ccc;        //按钮默认字体颜色
+$btnFontStyle: $contextFontStyle; //按钮默认字体
+// 按钮默认大小，圆角等属性
+// 特别提示的字体属性
+// 列表的字体颜色大小
+// 列表按钮使用小号按钮
+
+
 $colorGray1: #333333; //主要文案:标题,正文等文案颜色
 $colorGray2: #666666; //次要文案:导航,通用icon文案
 $colorGray3: #999999; //辅助文案,提示文案
@@ -24,54 +36,3 @@ $colorGray6: #f5f5f5; //禁用态背景色,table行hover底色
 $colorGray7: #fafafa; //表头底色
 $colorGray8: #eef5ff; //标签背景色  辅助按钮背景
 
-$bodyBackgroundColor: #f9f9f9; //背景颜色
-$bodyBackgroundColorReset: #f8f9fa; //背景颜色
-
-$commonPadding: 20px;
-$commonPadding18: 18px;
-
-$sideBarWidth: 200px;
-$miniBarWidth: 94px;
-
-$sideBarItemHeight: 50px;
-$headerHeight: 40px;
-$svgPadding: 12px;
-$iconSize: 16px;
-
-$tagHieght: 40px;
-$topHeight: 104px;
-// base color
-$light-blue: $colorGray8;
-$red: $danger;
-$pink: $danger;
-$green: $success;
-$tiffany: $success;
-$yellow: $warning;
-$panGreen: $success-light;
-$byte-blue: $blue;
-
-// sidebar
-$menuText: $colorGray1;
-$menuActiveText: $blue;
-$subMenuText: $colorGray2;
-$subMenuActiveText: $blue; // https://github.com/ElemeFE/element/issues/12951
-
-$menuBg: $white;
-$menuHover: $white;
-
-$subMenuBg: $menuBg;
-$subMenuHover: $white;
-
-// the :export directive is the magic sauce for webpack
-// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
-:export {
-  menuText: $menuText;
-  subMenuText: $subMenuText;
-  menuActiveText: $menuActiveText;
-  subMenuActiveText: $subMenuActiveText;
-  menuBg: $menuBg;
-  menuHover: $menuHover;
-  subMenuBg: $subMenuBg;
-  subMenuHover: $subMenuHover;
-  sideBarWidth: $sideBarWidth;
-}
